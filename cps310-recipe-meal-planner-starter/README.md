@@ -48,4 +48,21 @@ python -m pytest -v
 python3 -m pytest -v
 ```
 
-You are expected to make your own design decisions as you extend the project during the final project.
+You are expected to make your own design decisions as you extend the project during the final project. 
+
+Checkpoint 1 Progress
+Completed Features
+Search recipes by name
+Filter recipes by category
+Search recipes by ingredient
+Development Workflow
+Created GitHub Issues for planned work
+Developed features on separate branches
+Created and merged pull requests
+Added and maintained pytest tests
+Testing Status
+All current tests are passing.
+
+Planned Features
+Weekly meal planning
+Additional test coverage
