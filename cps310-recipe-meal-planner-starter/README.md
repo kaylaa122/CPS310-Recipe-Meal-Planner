@@ -49,3 +49,28 @@ python3 -m pytest -v
 ```
 
 You are expected to make your own design decisions as you extend the project during the final project.
+CPS 310 Final Project
+Recipe & Meal Planner
+This project is a recipe and meal planning application developed for CPS 310.
+
+ Development Progress
+The project has been extended with the following functionality:
+
+Ingredient-based recipe searching.
+Adding recipes to specific days in a meal plan.
+Expanded automated tests for the new functionality.
+Technologies
+Python
+JSON
+Pytest
+Git and GitHub
+Testing Progress
+The test suite currently contains 11 passing tests covering recipe loading, configuration loading, recipe searching, category filtering, ingredient searching, and meal planning.
+
+Run the tests using:
+
+
+powershell
+py -m pytest -v
+Development Workflow
+Development is organized using Git feature branches, GitHub Issues, meaningful commits, and pull requests.

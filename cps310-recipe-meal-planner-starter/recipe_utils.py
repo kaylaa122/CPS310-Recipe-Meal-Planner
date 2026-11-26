@@ -45,3 +45,7 @@ def search_by_ingredient(recipes, ingredient_name):
             for ingredient in recipe["ingredients"]
         )
     ]
+def add_meal_to_plan(meal_plan, day, recipe_name):
+    """Add a recipe to a specific day in the meal plan."""
+    meal_plan[day] = recipe_name
+    return meal_plan
