@@ -2,8 +2,7 @@
 
 import json
 
-from recipe_utils import filter_by_category, load_config, load_recipes, search_by_name
-
+from recipe_utils import filter_by_category, load_config, load_recipes, search_by_name, search_by_ingredient
 
 def test_search_by_name_finds_partial_match():
     recipes = [
@@ -79,3 +78,4 @@ def test_load_recipes_reads_json(tmp_path):
     ]
     recipe_file.write_text(json.dumps(sample), encoding="utf-8")
     assert load_recipes(recipe_file) == sample
+ 
